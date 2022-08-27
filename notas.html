@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>PingFast</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	
+    <!-- icone -->
+    <link href="img/icone.webp" rel="icon">
+	 
+    <!-- Dependências -->	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" rel="stylesheet">		
+
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Layout -->
+    <link href="base/style.css" rel="stylesheet">		
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Navegação -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm px-4 px-lg-4 py-3 py-lg-0">
+                <a href="./" class="navbar-brand p-0">
+                    <img src="img/branco.webp">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="./#inicio" class="nav-item nav-link">Início</a>
+                        <a href="./#sobre" class="nav-item nav-link">Sobre</a>
+                        <a href="./#funcoes" class="nav-item nav-link">Funções</a>
+						<a href="./#download" class="nav-item nav-link">Download</a>
+                        <a href="./#contribua" class="nav-item nav-link">Contribua</a>
+                        <a href="./#contato" class="nav-item nav-link">Contato</a>
+						<a href="#artigos" class="nav-item nav-link">Artigos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navegação -->
+
+
+</br></br></br>
+        <!-- notas -->
+        <div class="container-xxl py-5" id="notas">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5"> Notas de Lançamento</h1>
+                </div>
+</br>
+			
+<div class="wow fadeInUp" data-wow-delay="0.3s">
+
+<h3>2.3.2 (14/08/2022)</h3>
+</br>
+<li> O "DNS atual" além de checar as configurações manuais agora verifica o DHCP e Gateway em último caso</li>
+<li> Retornar a DNS ao padrão agora retorna as configurações reais ao invés de somente apagar as manuais (Evitar problemas onde houve configuração de IP manual)</li>
+<li> A aba "Avançado" agora mantem o "Otimizar" no menu como selecionado</li>
+<li> Corrigido um problema ao verificar NAT em conexões respondendo por IPV6</li>
+<li> Corrigido uma falha de leitura em sistemas 64 bits</li>
+<li> Corrigido um problema de resposta no botão de "Aplicar" na aba "Avançado"</li>
+</br></br>	
+
+<h3>2.3.1 (10/08/2022)</h3>
+</br>
+<li> Função de verificar NAT aprimorada</li>
+<li> Melhorado o desempenho de diversos processos evitando a repetição de chamadas desnecessárias</li>
+<li> Corrigido um atraso na mensagem de "aguarde" na função de verificar portas</li>
+</br></br>	
+
+<h3>2.3.0 (03/08/2022)</h3>
+</br>
+<li> Adicionado o menu de função Portas </li>
+<li> Adicionado a função de testar portas TCP e UDP</li>
+<li> Adicionado a função de verificar o tipo de NAT (BETA)</li>
+<li> É possivel abrir a página do router ou copiar o IP Local e MAC através do programa para facilitar a abertura de portas</li>
+<li> Tutoriais e artigos referentes a abertura de portas foram adicionados ao topo do novo menu</li>
+<li> Agora o programa vai avisar na inicialização quando houver uma nova versão disponivel! </li>
+<li> Otimização de código e arquivos internos, o programa ficou mais leve (tamanho em disco) </li>
+<li> Botão de aplicar na aba de configurações avançadas agora apresenta mensagem de aguarde enquanto o processo esta rodando</li>
+<li> Informações do "Sobre" agora são apresentadas em uma aba própria de forma mais detalhada com os devidos agradecimentos ♥</li>
+<li> Ordem de apresentação dos elementos do menu de ping alterada para maior fluidez de utilização </li>
+<li> Corrigido um problema em que a logo não era apresentada no tamanho correto em algumas circunstâncias</li>
+<li> Correção/Padronização da fonte usada em alguns textos</li>
+<li> Pequenas revisões textuais e de posicionamento </li>
+</br></br>
+			
+<h3>2.2.1 (14/07/2022)</h3>
+</br>
+<li> Adicionado um botão para voltar o DNS ao padrão do seu provedor  </li>
+</br></br>
+
+<h3>2.2.0 (07/07/2022)</h3>
+</br>
+<li> Adicionado o menu de função Avançado </li>
+<li> Ao clicar neste menu serão exibidas as suas configurações atuais</li>
+<li> É possivel escolher manualmente que alterações o programa vai realizar</li>
+<li> Melhoria no processo de verificar se as configurações estão aplicadas</li>
+<li> Mudanças no botão de sobre: layout e posicionamento</li>
+<li> Primeira versão lançada após o site oficial </li>
+</br></br>
+
+<h3>2.1.0 (16/06/2022)</h3>
+</br>
+<li> Adicionado o menu de função DNS </li>
+<li> Ao clicar neste menu vai ser testado o seu ping para os 4 servidores recomendados (Cloudflare, Google, OpenDNS e Quad9)</li>
+<li> Ao clicar em uma das 4 recomendações os campos serão configurados de acordo </li>
+<li> É possivel Aplicar qualquer provedor DNS de sua preferência configurando manualmente
+<li> Adicionado opção de limpar o cache DNS (FlushDNS)</li>
+<li> Mudança no layout dos botões de ação para diferenciar dos botões das caixas de mensagem</li>
+</br></br>
+
+<h3>2.0.0 (03/03/2022)</h3>
+</br>
+<li> Primeira versão pública </li>
+<li> Interface reformulada e  nome definido como PingFast </li>
+<li> Adicionado animações, dicas e interações para facilitar a navegação do usuário </li>
+<li> As alterações feitas pelo programa agora só se aplicam ao adaptador de rede principal afim de evitar erros</li>
+<li> Adicionado uma mensagem de erro caso o usuário tente abrir o programa sem nenhum adaptador de rede ativo</li>
+<li> Refeito em .Net Framework 4.8 para evitar downloads adicionais e trazer mais comodismo aos usuários </li>
+<li> Inúmeras otimizações de código e desempenho</li>
+</br></br>
+
+<h3>1.0.0 (23/09/2021)</h3>
+</br>
+<li> A versão inicial não veio ao público geral, ela foi o TCC do autor e continha uma <a href="img/inicial.webp" target="_blank">interface</a> muito diferente e baseada no netcore 3.1 </li>
+<li> Aplica configurações para reduzir o tempo de resposta </li>
+<li> Restaura as configurações para o padrão do Windows </li>
+<li> Verifica as configurações propostas pelo otimizar para exibir a mensagem de configuração aplicada </li>
+<li> Testa o ping com intervalos de 0,5s e com tempo maximo de resposta de 1000MS (pacotes maiores que isso serão considerados perda) </li>
+<li> Opcionalmente é possivel salvar um log do teste de ping </li>
+<li> Muitos testes foram realizados afim de corrigir bugs mas já era estável e cumpria com as propostas principais do programa por isso o nome de 1.0 </li>
+</div>			
+			</div>
+        </div>
+        <!-- Notas -->
+
+		<!-- Rodapé -->
+		<div id="artigos">
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <h4 class="text-white mb-4">Artigos</h4>
+						<a class="btn btn-link" href="./nat.html">NAT</a>
+                        <a class="btn btn-link" href="./portas.html">Abertura de Portas</a>
+						<a class="btn btn-link" href="./jogos.html">Portas de Jogos</a>
+                        <a class="btn btn-link" href="./perda.html">Perda de Pacote</a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h4 class="text-white mb-4">Links Úteis</h4>
+                        <a class="btn btn-link" href="https://www.brasilbandalarga.com.br/bbl/" target="_blank">Teste de Velocidade</a>
+						<a class="btn btn-link" href="https://meuip.com.br" target="_blank">Meu IP</a>
+                        <a class="btn btn-link" href="https://www.monitorbandalarga.com.br/metas-da-anatel.htm" target="_blank">Regras de Qualidade</a>
+						<a class="btn btn-link" href="https://www.gov.br/anatel/pt-br/consumidor/quer-reclamar/reclamacao" target="_blank">Reclamação Anatel</a>
+					</div>
+                    <div class="col-md-6 col-lg-4">
+                        <h4 class="text-white mb-4">Contato</h4>
+                        <p><i class="fa fa-envelope me-3"></i>suporte@pingfast.com.br</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/pingfast2" target="_blank"><i class="fab fa-twitter"></i></a>
+							<a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCoE7yDAZZT5kF2h5oQt961w" target="_blank"><i class="fab fa-youtube"></i></a>
+							<a class="btn btn-outline-light btn-social" href="https://github.com/cleitonpaes" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>					
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; 2022 PingFast, Direitos Reservados.
+                            </br>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+								<a href="./privacidade.html">Políticas de Privacidade</a>
+								<a href="./termos.html">Termos de Uso</a>								
+                                <a href="./faq.html">FAQ</a>
+                                <a href="./">Início</a>								
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+        <!-- Rodapé -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="fa-solid fa-arrow-up-long"></i></a>
+    </div>
+
+    <!-- Dependências -->	
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wow.js@1.2.2/dist/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+    <script src="base/main.js"></script>
+</body>
+
+</html>

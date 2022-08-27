@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>PingFast</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	
+    <!-- icone -->
+    <link href="img/icone.webp" rel="icon">
+
+    <!-- Dependências -->	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" rel="stylesheet">		
+
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Layout -->
+    <link href="base/style.css" rel="stylesheet">		
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Navegação -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm px-4 px-lg-4 py-3 py-lg-0">
+                <a href="./" class="navbar-brand p-0">
+                    <img src="img/branco.webp">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="./#inicio" class="nav-item nav-link">Início</a>
+                        <a href="./#sobre" class="nav-item nav-link">Sobre</a>
+                        <a href="./#funcoes" class="nav-item nav-link">Funções</a>
+						<a href="./#download" class="nav-item nav-link">Download</a>
+                        <a href="./#contribua" class="nav-item nav-link">Contribua</a>
+                        <a href="./#contato" class="nav-item nav-link">Contato</a>
+						<a href="#artigos" class="nav-item nav-link">Artigos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navegação -->
+
+
+</br></br></br>
+
+
+
+        <!-- Perda -->
+        <div class="container-xxl py-5" id="perda">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Perda de Pacote</h1>
+                </div>
+				
+<div class="wow fadeInUp" data-wow-delay="0.3s">
+<b>Este artigo é uma prévia e cita funções que ainda vão ser desenvolvidas no programa</b></br></br>
+Sua internet é rápida e o seu ping é baixo mas você vive passando raiva com travamentos e lag no seu jogo online? </br>
+Se estes problemas não forem relacionados ao FPS do seu jogo muito provavelmente é perda de pacote </br>
+Você pode testar se a sua conexão está OK através da opção ping com o PingFast, se atente que: De acordo com a norma da Anatel as regras para perda de pacote
+são de até 2% em 95% da medições, ou seja, de cada 100 medidas, apenas 5 podem superar 2% </br>
+</br>
+Uma solução que pode reduzir ou exterminar os problemas com estas perdas é ajustar o <b>MTU</b>, que é o tamanho máximo do pacote que a sua conexão pode transmitir sem fragmentar em pedaços. 
+Em breve também será possível checar e definir o MTU ideal com o PingFast 2.4+, geralmente o MTU ideal é 1480 (comum), 1492 (máximo com wifi no padrão IEEE 802.11) ou 1500 (máximo e padrão do Windows) mas tenha em mente que em horários de pico a sua conexão pode continuar se mostrando instável,
+se continuar tendo problemas com perdas vale a pena tentar um MTU menor, que ainda esteja acima de 1400. 
+</br></br>
+Como dito acima o MTU é o tamanho máximo que a sua conexão pode transmitir sem fragmentar, então simplesmente definir um MTU baixo afim de evitar perdas não é o ideal,
+porque isso pode afetar diretamente na velocidade da sua internet, lembre-se sempre que você está no seu direito como consumidor de reclamar por uma internet melhor com a sua operadora ou com a <a href="https://www.gov.br/anatel/pt-br/consumidor/quer-reclamar/reclamacao" target="_blank">Anatel </a>
+</br>
+</br>
+<b>Não se esqueça de sempre jogar usando cabo de rede! Por melhor e mais perto que esteja o sinal de Wi-Fi ainda é muito mais suscetível a oscilação!</b>
+
+
+
+</div>
+
+			</div>
+        </div>
+        <!-- perda -->	
+
+		<!-- Rodapé -->
+		<div id="artigos">
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <h4 class="text-white mb-4">Artigos</h4>
+						<a class="btn btn-link" href="./nat.html">NAT</a>
+                        <a class="btn btn-link" href="./portas.html">Abertura de Portas</a>
+						<a class="btn btn-link" href="./jogos.html">Portas de Jogos</a>
+                        <a class="btn btn-link" href="./perda.html">Perda de Pacote</a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h4 class="text-white mb-4">Links Úteis</h4>
+                        <a class="btn btn-link" href="https://www.brasilbandalarga.com.br/bbl/" target="_blank">Teste de Velocidade</a>
+						<a class="btn btn-link" href="https://meuip.com.br" target="_blank">Meu IP</a>
+                        <a class="btn btn-link" href="https://www.monitorbandalarga.com.br/metas-da-anatel.htm" target="_blank">Regras de Qualidade</a>
+						<a class="btn btn-link" href="https://www.gov.br/anatel/pt-br/consumidor/quer-reclamar/reclamacao" target="_blank">Reclamação Anatel</a>
+					</div>
+                    <div class="col-md-6 col-lg-4">
+                        <h4 class="text-white mb-4">Contato</h4>
+                        <p><i class="fa fa-envelope me-3"></i>suporte@pingfast.com.br</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/pingfast2" target="_blank"><i class="fab fa-twitter"></i></a>
+							<a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCoE7yDAZZT5kF2h5oQt961w" target="_blank"><i class="fab fa-youtube"></i></a>
+							<a class="btn btn-outline-light btn-social" href="https://github.com/cleitonpaes" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>					
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; 2022 PingFast, Direitos Reservados.
+                            </br>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+								<a href="./privacidade.html">Políticas de Privacidade</a>
+								<a href="./termos.html">Termos de Uso</a>								
+                                <a href="./faq.html">FAQ</a>
+                                <a href="./">Início</a>								
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+        <!-- Rodapé -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="fa-solid fa-arrow-up-long"></i></a>
+    </div>
+
+    <!-- Dependências -->	
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wow.js@1.2.2/dist/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+    <script src="base/main.js"></script>
+</body>
+
+</html>
