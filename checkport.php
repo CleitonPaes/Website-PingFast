@@ -2,7 +2,7 @@
 $host = $_GET['host'];
 $port = $_GET['port'];
 
-$connection = @fsockopen($host, $port, $errno, $errstr, 5);
+$connection = @fsockopen($host, $port, $errno, $errstr, 2);
 
 if (is_resource($connection))
 {
